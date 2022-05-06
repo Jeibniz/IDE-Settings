@@ -1,0 +1,25 @@
+# Honebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew update && brew upgrade
+
+
+# wget
+brew install wget
+
+# zsh
+brew install zsh
+# To default shell
+sudo -s 'echo /usr/local/bin/zsh >> /etc/shells' && chsh -s /usr/local/bin/zsh
+# zsh autosuggestions
+brew install zsh-autosuggestions
+
+
+# Chorome
+brew cask install google-chrome
+# Java
+brew install java
+brew tap caskroom/versions brew cask install java8
+# Kotlin
+brew install kotlin
+# Android Platform Tools
+brew install android-platform-tools
